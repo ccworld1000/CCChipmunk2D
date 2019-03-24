@@ -1,5 +1,8 @@
 !http://files.slembcke.net/chipmunk/logo/logo1_med.png!
 
+h2. use Pod
+pod 'CCChipmunk2D'
+
 h2. NEW IN CHIPMUNK 7
 
 Chipmunk 7 is complete and now includes the ARM NEON optimizations, the autogeometry code, and the mulithreaded solver. 

@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D3112F2247AD9100091EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3112E2247AD9100091EBB /* AppDelegate.m */; };
+		18D311322247AD9100091EBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D311312247AD9100091EBB /* ViewController.m */; };
+		18D311342247AD9100091EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D311332247AD9100091EBB /* Assets.xcassets */; };
+		18D311372247AD9200091EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D311352247AD9200091EBB /* Main.storyboard */; };
+		18D3113A2247AD9200091EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D311392247AD9200091EBB /* main.m */; };
+		18D311492247AF6C00091EBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D311482247AF6C00091EBB /* AppDelegate.m */; };
+		18D3114C2247AF6C00091EBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3114B2247AF6C00091EBB /* ViewController.m */; };
+		18D3114F2247AF6C00091EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D3114D2247AF6C00091EBB /* Main.storyboard */; };
+		18D311512247AF6C00091EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D311502247AF6C00091EBB /* Assets.xcassets */; };
+		18D311542247AF6C00091EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D311522247AF6C00091EBB /* LaunchScreen.storyboard */; };
+		18D311572247AF6C00091EBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D311562247AF6C00091EBB /* main.m */; };
+		94C2A6F99932144A1ED13275 /* libPods-CCChipmunk2DiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E59464F104906046ED41D126 /* libPods-CCChipmunk2DiOS.a */; };
+		CCC644CD1016EB7852745C19 /* libPods-CCChipmunk2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3C57DAEE6CDBD47A41702A /* libPods-CCChipmunk2D.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D3112A2247AD9000091EBB /* CCChipmunk2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCChipmunk2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D3112D2247AD9100091EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D3112E2247AD9100091EBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D311302247AD9100091EBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D311312247AD9100091EBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D311332247AD9100091EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D311362247AD9200091EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D311382247AD9200091EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D311392247AD9200091EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D3113B2247AD9200091EBB /* CCChipmunk2D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCChipmunk2D.entitlements; sourceTree = "<group>"; };
+		18D311452247AF6B00091EBB /* CCChipmunk2DiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCChipmunk2DiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D311472247AF6C00091EBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D311482247AF6C00091EBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D3114A2247AF6C00091EBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D3114B2247AF6C00091EBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D3114E2247AF6C00091EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D311502247AF6C00091EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D311532247AF6C00091EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D311552247AF6C00091EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D311562247AF6C00091EBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E3C57DAEE6CDBD47A41702A /* libPods-CCChipmunk2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCChipmunk2D.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72A5928015E25A81F5ABFD31 /* Pods-CCChipmunk2DiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunk2DiOS.release.xcconfig"; path = "Target Support Files/Pods-CCChipmunk2DiOS/Pods-CCChipmunk2DiOS.release.xcconfig"; sourceTree = "<group>"; };
+		7450B82177F564E9CAD6A980 /* Pods-CCChipmunk2D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunk2D.debug.xcconfig"; path = "Target Support Files/Pods-CCChipmunk2D/Pods-CCChipmunk2D.debug.xcconfig"; sourceTree = "<group>"; };
+		A8173D011F04945AEC669C8A /* Pods-CCChipmunk2D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunk2D.release.xcconfig"; path = "Target Support Files/Pods-CCChipmunk2D/Pods-CCChipmunk2D.release.xcconfig"; sourceTree = "<group>"; };
+		DC7802519C70AB7C4D8D0A9D /* Pods-CCChipmunk2DiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCChipmunk2DiOS.debug.xcconfig"; path = "Target Support Files/Pods-CCChipmunk2DiOS/Pods-CCChipmunk2DiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E59464F104906046ED41D126 /* libPods-CCChipmunk2DiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCChipmunk2DiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D311272247AD9000091EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC644CD1016EB7852745C19 /* libPods-CCChipmunk2D.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D311422247AF6B00091EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C2A6F99932144A1ED13275 /* libPods-CCChipmunk2DiOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D311212247AD8F00091EBB = {
+			isa = PBXGroup;
+			children = (
+				18D3112C2247AD9000091EBB /* CCChipmunk2D */,
+				18D311462247AF6C00091EBB /* CCChipmunk2DiOS */,
+				18D3112B2247AD9000091EBB /* Products */,
+				8C69A3F9C3AFE9A273D31796 /* Pods */,
+				5D3B186845C859B96EB5A2A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D3112B2247AD9000091EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D3112A2247AD9000091EBB /* CCChipmunk2D.app */,
+				18D311452247AF6B00091EBB /* CCChipmunk2DiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D3112C2247AD9000091EBB /* CCChipmunk2D */ = {
+			isa = PBXGroup;
+			children = (
+				18D3112D2247AD9100091EBB /* AppDelegate.h */,
+				18D3112E2247AD9100091EBB /* AppDelegate.m */,
+				18D311302247AD9100091EBB /* ViewController.h */,
+				18D311312247AD9100091EBB /* ViewController.m */,
+				18D311332247AD9100091EBB /* Assets.xcassets */,
+				18D311352247AD9200091EBB /* Main.storyboard */,
+				18D311382247AD9200091EBB /* Info.plist */,
+				18D311392247AD9200091EBB /* main.m */,
+				18D3113B2247AD9200091EBB /* CCChipmunk2D.entitlements */,
+			);
+			path = CCChipmunk2D;
+			sourceTree = "<group>";
+		};
+		18D311462247AF6C00091EBB /* CCChipmunk2DiOS */ = {
+			isa = PBXGroup;
+			children = (
+				18D311472247AF6C00091EBB /* AppDelegate.h */,
+				18D311482247AF6C00091EBB /* AppDelegate.m */,
+				18D3114A2247AF6C00091EBB /* ViewController.h */,
+				18D3114B2247AF6C00091EBB /* ViewController.m */,
+				18D3114D2247AF6C00091EBB /* Main.storyboard */,
+				18D311502247AF6C00091EBB /* Assets.xcassets */,
+				18D311522247AF6C00091EBB /* LaunchScreen.storyboard */,
+				18D311552247AF6C00091EBB /* Info.plist */,
+				18D311562247AF6C00091EBB /* main.m */,
+			);
+			path = CCChipmunk2DiOS;
+			sourceTree = "<group>";
+		};
+		5D3B186845C859B96EB5A2A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E3C57DAEE6CDBD47A41702A /* libPods-CCChipmunk2D.a */,
+				E59464F104906046ED41D126 /* libPods-CCChipmunk2DiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C69A3F9C3AFE9A273D31796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7450B82177F564E9CAD6A980 /* Pods-CCChipmunk2D.debug.xcconfig */,
+				A8173D011F04945AEC669C8A /* Pods-CCChipmunk2D.release.xcconfig */,
+				DC7802519C70AB7C4D8D0A9D /* Pods-CCChipmunk2DiOS.debug.xcconfig */,
+				72A5928015E25A81F5ABFD31 /* Pods-CCChipmunk2DiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D311292247AD9000091EBB /* CCChipmunk2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D3113E2247AD9200091EBB /* Build configuration list for PBXNativeTarget "CCChipmunk2D" */;
+			buildPhases = (
+				A42D45253B59E769DA9F7375 /* [CP] Check Pods Manifest.lock */,
+				18D311262247AD9000091EBB /* Sources */,
+				18D311272247AD9000091EBB /* Frameworks */,
+				18D311282247AD9000091EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCChipmunk2D;
+			productName = CCChipmunk2D;
+			productReference = 18D3112A2247AD9000091EBB /* CCChipmunk2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D311442247AF6B00091EBB /* CCChipmunk2DiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D311582247AF6C00091EBB /* Build configuration list for PBXNativeTarget "CCChipmunk2DiOS" */;
+			buildPhases = (
+				9E8951881D3F73EA4E5E00BD /* [CP] Check Pods Manifest.lock */,
+				18D311412247AF6B00091EBB /* Sources */,
+				18D311422247AF6B00091EBB /* Frameworks */,
+				18D311432247AF6B00091EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCChipmunk2DiOS;
+			productName = CCChipmunk2DiOS;
+			productReference = 18D311452247AF6B00091EBB /* CCChipmunk2DiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D311222247AD8F00091EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CC | ccworld1000@gmail.com";
+				TargetAttributes = {
+					18D311292247AD9000091EBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					18D311442247AF6B00091EBB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D311252247AD8F00091EBB /* Build configuration list for PBXProject "CCChipmunk2D" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D311212247AD8F00091EBB;
+			productRefGroup = 18D3112B2247AD9000091EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D311292247AD9000091EBB /* CCChipmunk2D */,
+				18D311442247AF6B00091EBB /* CCChipmunk2DiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D311282247AD9000091EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D311342247AD9100091EBB /* Assets.xcassets in Resources */,
+				18D311372247AD9200091EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D311432247AF6B00091EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D311542247AF6C00091EBB /* LaunchScreen.storyboard in Resources */,
+				18D311512247AF6C00091EBB /* Assets.xcassets in Resources */,
+				18D3114F2247AF6C00091EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E8951881D3F73EA4E5E00BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCChipmunk2DiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42D45253B59E769DA9F7375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCChipmunk2D-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D311262247AD9000091EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D311322247AD9100091EBB /* ViewController.m in Sources */,
+				18D3113A2247AD9200091EBB /* main.m in Sources */,
+				18D3112F2247AD9100091EBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D311412247AF6B00091EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D3114C2247AF6C00091EBB /* ViewController.m in Sources */,
+				18D311572247AF6C00091EBB /* main.m in Sources */,
+				18D311492247AF6C00091EBB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D311352247AD9200091EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D311362247AD9200091EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D3114D2247AF6C00091EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D3114E2247AF6C00091EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D311522247AF6C00091EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D311532247AF6C00091EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D3113C2247AD9200091EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18D3113D2247AD9200091EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18D3113F2247AD9200091EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7450B82177F564E9CAD6A980 /* Pods-CCChipmunk2D.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCChipmunk2D/CCChipmunk2D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCChipmunk2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc..CCChipmunk2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18D311402247AD9200091EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8173D011F04945AEC669C8A /* Pods-CCChipmunk2D.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CCChipmunk2D/CCChipmunk2D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CCChipmunk2D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc..CCChipmunk2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18D311592247AF6C00091EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7802519C70AB7C4D8D0A9D /* Pods-CCChipmunk2DiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCChipmunk2DiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc..CCChipmunk2DiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D3115A2247AF6C00091EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72A5928015E25A81F5ABFD31 /* Pods-CCChipmunk2DiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CCChipmunk2DiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc..CCChipmunk2DiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D311252247AD8F00091EBB /* Build configuration list for PBXProject "CCChipmunk2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3113C2247AD9200091EBB /* Debug */,
+				18D3113D2247AD9200091EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D3113E2247AD9200091EBB /* Build configuration list for PBXNativeTarget "CCChipmunk2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D3113F2247AD9200091EBB /* Debug */,
+				18D311402247AD9200091EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D311582247AF6C00091EBB /* Build configuration list for PBXNativeTarget "CCChipmunk2DiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D311592247AF6C00091EBB /* Debug */,
+				18D3115A2247AF6C00091EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D311222247AD8F00091EBB /* Project object */;
+}

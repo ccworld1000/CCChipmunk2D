@@ -52,5 +52,6 @@ msvc/vc14/demo/x64/
 
 CCChipmunk2D/Pods
 CCChipmunk2D/Podfile.lock
+CCChipmunk2D/Podfile
 
 *.podspec

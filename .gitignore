@@ -55,3 +55,4 @@ CCChipmunk2D/Podfile.lock
 CCChipmunk2D/Podfile
 
 *.podspec
+*..swp
